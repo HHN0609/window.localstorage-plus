@@ -1,6 +1,6 @@
 import { StorageClass, Dictionary, Expire, StoredData, Result } from "./type/index";
 
-export default class StoragePlus implements StorageClass {
+export default class LocalstoragePlus implements StorageClass {
     set<T>(key: string, value: T, expire: Expire = Dictionary.permanent) {
         const data = {
             value,
