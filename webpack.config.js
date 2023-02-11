@@ -11,9 +11,9 @@ const config = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         clean: true,
-        filename: "storagePlus.js",
+        filename: "localstoragePlus.js",
         library: {
-            name: "StoragePlus",
+            name: "LocalstoragePlus",
             type: 'umd',
             export: 'default'
         }
