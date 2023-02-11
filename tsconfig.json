@@ -1,0 +1,19 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es5",
+    "allowJs": true,
+    "lib": ["ES2015", "DOM"],
+    "types": [ "node" ],
+    "baseUrl": "./",
+    "declaration": true,
+    "moduleResolution": "node"
+  },
+  "files": ["src/index.ts"],
+  "include": [ "src/**/*.ts" ],
+  "exclude": [ "node_modules" ]
+}
